@@ -1,0 +1,29 @@
+# Node modules and dependencies
+node_modules
+*.log
+npm-debug.log*
+
+# Local environment and build files
+.env
+.DS_Store
+
+# Temporary files and directories
+*.tmp
+*.swp
+.idea/
+.vscode/
+
+# Build output (already included in the image)
+dist/
+
+# Git-related files
+.git
+.gitignore
+.prettierrc
+
+# Docker-related files
+docker-compose.yml
+Dockerfile
+
+# Nginx configuration files (if mounted)
+nginx.conf
